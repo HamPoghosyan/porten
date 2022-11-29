@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Paytone+One&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    background-color: #000000;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header_tel_info_reg{
+    display: flex;
+    justify-content: space-between ;
+    padding-top:14px;
+    padding-bottom: 14px;
+}
+.header_tel_info{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.header_info{
+    display: flex;
+    column-gap: 10px;
+}
+.header_reg_img{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.header_info p{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.header_reg_img a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.header_reg_img p{
+    margin: 0;
+}
+.header_background{
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 80px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heder__manu__nav__img{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    align-items: center;
+}
+.header__menu__nav li {
+    display: inline-block;
+    padding-right: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #969696;
+}
+.active{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    padding: 31px 15px;
+}
+.main__background__img{
+    background-image: url(./img/Rectangle\ 3.png);
+    width: 100%;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__border__logo{
+    border: 4px solid #FFFFFF;
+    width: 320px;
+    text-align: center;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    row-gap: 7px;
+}
+.main__border__logo__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+}
+.main__text p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 38%;
+    margin: auto;
+}
+.main__border__logo h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.main__border__img{
+    border-bottom: 2px solid #FFFFFF;;
+}
+.season__catalog{
+    display: flex;
+}
+.catalog__block{
+    background-image: url(./img/Rectangle\ 8\ nstac\ txa.png);
+    width: 40%;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 30px;
+
+}
+.season__block{
+    width: 60%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+}
+.season__block_watches{
+    display: flex;
+    column-gap: 50px;
+}
+.season__block_text h2{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.season__block_text h2 span{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.season__block_watch1 h3{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.season__block_watch1 p{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D0D0D0;
+}
+.season__block_underline{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #ffffff;
+}
+.season__block_text{
+    padding-top: 93px;
+}
+.season__block_watch1 img{
+    background: #191B1C;
+    padding: 55px 22px;
+    margin-bottom: 15px;
+}
+.season__block_watch1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.catalog__block h2{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.catalog__block p{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 5px 15px;
+    margin-bottom: 100px;
+}
+.img__collection{
+    display: flex;
+}
+.img__block{
+    background-image: url(./img/Rectangle\ 9\ kost.png);
+    background-size: 100% 100%;
+    width: 45%;
+    height: 600px;
+}
+.collection__block{
+    width: 55%;
+    height: 600px;
+}
+.collection__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.collection__block h2{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.collection__block p{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 67%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.collection__block a{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 5px 20px;
+}
