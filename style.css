@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Paytone+One&family=Poppins:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display&family=Poppins:wght@400;500&display=swap');
 
 *{
     padding: 0;
@@ -8,7 +7,6 @@
 body{
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
-    font-family: 'Paytone One', sans-serif;
     background-color: #000000;
 }
 .container{
@@ -83,15 +81,13 @@ a{
     font-size: 14px;
     line-height: 18px;
     color: #969696;
+    padding: 31px 15px;
 }
-.active{
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
+.header__menu__nav li:hover{
     background-color: #1F1F1F;
     padding: 31px 15px;
+    color: #FFFFFF;
+    transition: 0.5s background-color;
 }
 .main__background__img{
     background-image: url(./img/Rectangle\ 3.png);
@@ -171,26 +167,26 @@ a{
     column-gap: 50px;
 }
 .season__block_text h2{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
 }
 .season__block_text h2 span{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 28px;
     text-align: center;
     color: #FFFFFF;
 }
 .season__block_watch1 h3{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
 }
 .season__block_watch1 p{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 16px;
     line-height: 19px;
     color: #D0D0D0;
@@ -214,13 +210,13 @@ a{
     row-gap: 10px;
 }
 .catalog__block h2{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 36px;
     line-height: 42px;
     color: #FFFFFF;
 }
 .catalog__block p{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
@@ -249,7 +245,7 @@ a{
     justify-content: center;
 }
 .collection__block h2{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 36px;
 line-height: 42px;
 text-align: center;
@@ -257,7 +253,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .collection__block p{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -268,10 +264,222 @@ color: #FFFFFF;
     margin-bottom: 30px;
 }
 .collection__block a{
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
-    padding: 5px 20px;
+    padding: 10px 20px;
+}
+.new__watches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 120px;
+}
+.new__watches_full{
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+    row-gap: 40px;
+}
+.new__watches_full_first{
+    display: flex;
+    column-gap: 23px;
+}
+.new__watches_full_second{
+    display: flex;
+    column-gap: 23px;
+    padding-bottom: 150px;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.new__watches_h h2{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.new__watches_full_first h3{
+    font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.new__watches_full_first p{
+    font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+color: #D0D0D0;
+}
+.new__watches_full_second h3{
+    font-family: 'Playfair Display';
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.new__watches_full_second p{
+    font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 19px;
+color: #D0D0D0;
+}
+.watch img{
+    background: #191B1C;
+    padding: 55px 22px;
+    margin-bottom: 15px;
+}
+.background__brands{
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+.brands__logo{
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 80px;
+}
+.brands__text{
+    padding-top: 60px;
+    font-family: 'Playfair Display';
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer__background__img{
+    background-image: url(./img/Rectangle\ 15.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.portex{
+    display: flex;
+    padding-top: 80px;
+    column-gap: 31px;
+}
+.portex__info__magazine{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.portex__categories{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: 13px;
+}
+.portex__collection{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.portex__collection_line1{
+    display: flex;
+    column-gap: 20px;
+}
+.portex__collection_line2{
+    display: flex;
+    column-gap: 20px;
+}
+.newsletter__text__email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+}
+.newsletter__email_bottom{
+    display: flex;
+    align-items: center;
+}
+.portex h2{
+    font-family: 'Playfair Display';
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0;
+}
+.portex__info__magazine p{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.portex__collection a{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #D0D0D0;
+background-color: #0F0F0F;
+padding: 10px 20px;
+}
+.newsletter__text p{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.newsletter__email_bottom input{
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.newsletter__email_bottom a{
+    font-family: 'PT Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+background: #0F0F0F;
+padding: 10px 20px;
+
+}
+.newsletter__email_bottom ::placeholder{
+    color: #FFFFFF;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0px;
+}
+.footer h2{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #D0D0D0;
+}
+.footer a{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+text-align: right;
+text-decoration-line: underline;
+color: #D0D0D0;
 }
